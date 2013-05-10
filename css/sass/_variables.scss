@@ -1,0 +1,30 @@
+$scrollSpace: 20px;
+$friendsWidth: 300px;
+$myContentHeight: 150px;
+$myContentItemHeight: $myContentHeight - $scrollSpace;
+$sharedContentWidth: 300px;
+$sharedContentItemWidth: $sharedContentWidth - $scrollSpace;
+
+$commonMargin: 20px;
+$itemMargin: 10px;
+$friendInset: 20px;
+$friendInsetActive: 0px;
+$friendImageWidth: 50px;
+$friendSelectedImageWidth: 100px;
+
+$contentPadding: 10px;
+$contentImgWidth: 100px;
+
+$colorBody: #000;
+$colorSectionBorder: #fff;
+$colorMyContentBg: #406181;
+$colorMyContentBgRGBA: rgba(64,97,129,0.6);
+$colorSharedContentBg: #814040;
+$colorSharedContentBgRGBA: rgba(129,65,64,0.6);
+$colorText: #fff;
+$colorFriend: #e19b19;
+$colorFriendSelected: #0199ac;
+$colorContentDisabled: #a3b4b5;
+$colorContentOffered: #48a9b0;
+$colorContentOwned: #054f96;
+$colorContentLink: #fdb;

@@ -1,0 +1,16 @@
+#myContent {
+	background-color: $colorMyContentBg;
+	background-color: $colorMyContentBgRGBA;
+	bottom: 0;
+	height: $myContentHeight;
+	left: 0;
+	overflow: auto;
+	position: absolute;
+	right: 0;
+
+	.content {
+		clear: none;
+		float: left;
+		margin-right: $itemMargin;
+	}
+}

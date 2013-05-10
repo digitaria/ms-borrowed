@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Share</title>
+	<link href="css/main.css" media="all" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script type="text/javascript" src="js/dummydata.js"></script>
+	<script type="text/javascript" src="js/content.js"></script>
+	<script type="text/javascript" src="js/friends.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+</head>
+<body>
+	
+</body>
+	<div id="templates">
+		<div class="friend">
+			<img />
+			<div class="itemName">Name</div>
+		</div>
+
+		<div class="content">
+			<img />
+			<div class="itemName">Name</div>
+			<div class="mineInfo">
+				<h2>Share This Item</h2>
+				<p>To share, select a friend and then drag this item to the share target.</p>
+			</div>
+			<div class="mineOfferedInfo">
+				<h2>Item Shared</h2>
+				<p>This item is already offered to <span>your friend</span> for sharing.</p>
+				<a href="#">Take it back?</a>
+			</div>
+			<div class="mineBorrowedInfo">
+				<h2>Item Borrowed</h2>
+				<p><span>Your friend</span> has accepted your loan. This item will be returned when finished.</p>
+			</div>
+			<div class="theirsOfferedInfo">
+				<h2>Borrow This Item</h2>
+				<p>To borrow this item, drag it to your content at the bottom.</p>
+				<p>Don't want it? <a href="#">Send it back</a> to <span>your friend</span>.
+			</div>
+			<div class="theirsBorrowedInfo">
+				<h2>Borrowed Item</h2>
+				<p>You have borrowed this item from <span>a friend</span>.</p>
+				<a href="#">Give it back?</a>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper">
+		<div id="friends">
+			<div id="friendsInner">
+			</div>
+		</div>
+
+		<div id="myContent">
+			<div id="myContentInner">
+			</div>
+		</div>
+
+		<div id="sharedContent">
+			<div id="sharedContentInner">
+			</div>
+		</div>
+	</div>
+
+	<div id="shareTarget"></div>
+</html>

@@ -1,0 +1,32 @@
+@import "compass/css3/transition";
+
+@import "variables";
+@import "friends";
+@import "allcontent";
+@import "mycontent";
+@import "sharedcontent";
+@import "templates";
+
+body {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+#wrapper {
+	background: $colorBody image-url("background.jpg") center center repeat;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+#shareTarget {
+	background: image-url("drop_target.png") center center no-repeat;
+	bottom: $myContentHeight;
+	left: $friendsWidth;
+	position: absolute;
+	right: $sharedContentWidth;
+	top: 0;
+}

@@ -1,0 +1,78 @@
+.mineInfo,
+.mineOfferedInfo,
+.mineBorrowedInfo,
+.theirsOfferedInfo,
+.theirsBorrowedInfo {
+	display: none;
+}
+
+.stateMine .mineInfo,
+.stateMineOffered .mineOfferedInfo,
+.stateMineBorrowed .mineBorrowedInfo,
+.stateTheirsOffered .theirsOfferedInfo,
+.stateTheirsBorrowed .theirsBorrowedInfo {
+	display: block;
+}
+
+.stateMine {
+	background-color: $colorContentOwned;
+}
+
+.stateMineOffered {
+	background-color: $colorContentOffered;
+}
+
+.stateMineBorrowed {
+	background-color: $colorContentDisabled;
+}
+
+.stateTheirsOffered {
+	background-color: $colorContentOffered;
+}
+
+.stateTheirsBorrowed {
+	background-color: $colorContentOwned;
+}
+
+.content {
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: $colorText;
+	font-size: 12px;
+	height: $contentImgWidth + 2 * $contentPadding;
+	padding: $contentPadding;
+	width: $sharedContentWidth;
+
+	> div {
+		margin-left: $contentImgWidth + $commonMargin
+	}
+
+	a {
+		color: $colorContentLink;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.itemName {
+		font-size: 16px;
+	}
+
+	h2 {
+		font-size: 12px;
+		font-weight: bold;
+		margin: 0;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	img {
+		clear: left;
+		float: left;
+		width: $contentImgWidth;
+	}
+}

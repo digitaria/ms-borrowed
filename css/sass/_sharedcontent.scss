@@ -1,0 +1,14 @@
+#sharedContent {
+	background-color: $colorSharedContentBg;
+	background-color: $colorSharedContentBgRGBA;
+	bottom: $myContentHeight;
+	overflow: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: $sharedContentWidth + $commonMargin;
+
+	.content {
+		margin-bottom: $itemMargin;
+	}
+}

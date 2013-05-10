@@ -1,0 +1,179 @@
+/* line 1, sass/_friends.scss */
+#friends {
+  bottom: 150px;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  width: 300px; }
+
+/* line 10, sass/_friends.scss */
+.friend {
+  background-color: #e19b19;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  margin-bottom: 10px; }
+  /* line 11, sass/_friends.scss */
+  .friend:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  /* line 28, sass/_friends.scss */
+  .friend img {
+    clear: left;
+    float: left;
+    width: 50px;
+    zoom: 1; }
+  /* line 35, sass/_friends.scss */
+  .friend > div {
+    font-size: 16px;
+    margin-left: 70px;
+    line-height: 50px; }
+  /* line 41, sass/_friends.scss */
+  .friend.active {
+    background-color: #0199ac; }
+    /* line 44, sass/_friends.scss */
+    .friend.active img {
+      width: 100px; }
+    /* line 48, sass/_friends.scss */
+    .friend.active > div {
+      font-size: 24px;
+      margin-left: 120px;
+      line-height: 100px; }
+
+/* line 5, sass/_allcontent.scss */
+.mineInfo,
+.mineOfferedInfo,
+.mineBorrowedInfo,
+.theirsOfferedInfo,
+.theirsBorrowedInfo {
+  display: none; }
+
+/* line 13, sass/_allcontent.scss */
+.stateMine .mineInfo,
+.stateMineOffered .mineOfferedInfo,
+.stateMineBorrowed .mineBorrowedInfo,
+.stateTheirsOffered .theirsOfferedInfo,
+.stateTheirsBorrowed .theirsBorrowedInfo {
+  display: block; }
+
+/* line 17, sass/_allcontent.scss */
+.stateMine {
+  background-color: #054f96; }
+
+/* line 21, sass/_allcontent.scss */
+.stateMineOffered {
+  background-color: #48a9b0; }
+
+/* line 25, sass/_allcontent.scss */
+.stateMineBorrowed {
+  background-color: #a3b4b5; }
+
+/* line 29, sass/_allcontent.scss */
+.stateTheirsOffered {
+  background-color: #48a9b0; }
+
+/* line 33, sass/_allcontent.scss */
+.stateTheirsBorrowed {
+  background-color: #054f96; }
+
+/* line 37, sass/_allcontent.scss */
+.content {
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  font-size: 12px;
+  height: 120px;
+  padding: 10px;
+  width: 300px; }
+  /* line 49, sass/_allcontent.scss */
+  .content > div {
+    margin-left: 120px; }
+  /* line 53, sass/_allcontent.scss */
+  .content a {
+    color: #ffddbb;
+    font-weight: bold;
+    text-decoration: none; }
+  /* line 59, sass/_allcontent.scss */
+  .content .itemName {
+    font-size: 16px; }
+  /* line 63, sass/_allcontent.scss */
+  .content h2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0; }
+  /* line 69, sass/_allcontent.scss */
+  .content p {
+    margin: 0; }
+  /* line 73, sass/_allcontent.scss */
+  .content img {
+    clear: left;
+    float: left;
+    width: 100px; }
+
+/* line 1, sass/_mycontent.scss */
+#myContent {
+  background-color: #406181;
+  background-color: rgba(64, 97, 129, 0.6);
+  bottom: 0;
+  height: 150px;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0; }
+  /* line 11, sass/_mycontent.scss */
+  #myContent .content {
+    clear: none;
+    float: left;
+    margin-right: 10px; }
+
+/* line 1, sass/_sharedcontent.scss */
+#sharedContent {
+  background-color: #814040;
+  background-color: rgba(129, 65, 64, 0.6);
+  bottom: 150px;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 320px; }
+  /* line 11, sass/_sharedcontent.scss */
+  #sharedContent .content {
+    margin-bottom: 10px; }
+
+/* line 1, sass/_templates.scss */
+#templates {
+  display: none; }
+
+/* line 10, sass/main.scss */
+body {
+  font-family: Arial;
+  font-size: 12px; }
+
+/* line 15, sass/main.scss */
+#wrapper {
+  background: black url('../images/background.jpg?1368056401') center center repeat;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1; }
+
+/* line 25, sass/main.scss */
+#shareTarget {
+  background: url('../images/drop_target.png?1368056526') center center no-repeat;
+  bottom: 150px;
+  left: 300px;
+  position: absolute;
+  right: 300px;
+  top: 0; }
